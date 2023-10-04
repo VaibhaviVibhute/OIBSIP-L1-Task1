@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    #main_footer{
+        height: 700px;
+        width: 100%;
+        /* border: 1px solid black; */
+        background-color: whitesmoke;
+    }
+    #box1{
+        height: 550px;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+    }
+    .bx{
+        height: 550px;
+        width: 400px;
+        margin-top: 50px;
+        /* border: 1px solid black; */
+    } 
+    .fo_box{
+        height: 30px;
+        width: 220px;
+        /* border: 1px solid black; */
+        line-height: 1.4;
+        font-size: 12.5px;
+        padding-left: 30px;
+        margin-left: 40px;
+        font-weight: 400;
+        font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    }
+    #hd{
+        font-size: 14px;
+        line-height: 1;
+        color: black;
+        font-weight: 600;
+        /* font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif; */
+    }
+
+
+    #main_fp{
+        height: 50px;
+        width: 100%;
+        /* border: 1px solid black; */
+        margin-top: 20px;
+    }
+    #icon4{
+        height: 40px;
+        width: 950px;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-left: 400px;
+    }
+    #icons{
+        height: 30px;
+        width: 600px;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-left: 30px;
+        margin-top: 6px;
+    }
+    .bic{
+        height: 30px;
+        width: 190px;
+        /* border: 1px solid black; */
+        display: flex;
+    }
+    #fp{
+        line-height: 1.4;
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 6px;
+        font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    }
+    .ic{
+        height: 20px;
+        width: 20px;
+        /* border: 1px solid black; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    a{
+        text-decoration: none;
+    }
+    .txt_cp{
+        margin-left: 10px;
+        line-height: 1.3;
+        font-size: 13px;
+        color: black;
+        font-weight: 400;
+        font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    }
+    #ic1{
+        background-image: url(./images.png);
+    }
+    #ic2{
+        background-image: url(./Screenshot\ 2023-03-26\ 222720.png);
+    }
+    #ic3{
+        background-image: url(./download.png);
+    }
+    #ic4{
+        background-image: url(./download\ \(1\).png);
+    }
+    #bic2{
+        width: 150px;
+    }
+    #bic3{
+        width: 120px;
+    }
+    #bic4{
+        width: 120px;
+    }
+
+
+    #main_chr{
+        height: 40px;
+        width: 380px;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-left: 60px;
+        /* margin-top: 50px; */
+    }
+    #gl{
+        height: 25px;
+        width: 25px;
+        /* border: 1px solid black; */
+        background-image: url(./earth-g8374f9ce0_640.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #txt{
+        height: 30px;
+        width: 110px;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-left: 10px;
+        font-size: 12px;
+        line-height: 1.9;
+        font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    }
+    #arrow{
+        height: 30px;
+        width: 20px;
+        font-size: 17px;
+        margin-left: 5px;
+        /* border: 1px solid black; */
+        line-height: 1.3;
+    }
+
+    #icn{
+        height: 40px;
+        width: 200px;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-left: 25px;
+    }
+    .i{
+        height: 27px;
+        width: 27px;
+        /* border: 1px solid black; */
+        font-size: 28px;
+        padding-left: 2px;
+        color: gray;
+        background-color: white;
+    }
+    #i2{
+        margin-left: 20px;
+    }
+    #i3{
+        margin-left: 20px;
+    }
+    #i4{
+        margin-left: 20px;
+    }
+
+
+    #main_cpy{
+        height: 40px;
+        width: 880px;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-left: 210px;
+    }
+    .cp{
+        height: 40px;
+        width: 160px;
+        /* border: 1px solid black; */
+        display: flex;
+    }
+    #cp1{
+        width: 240px;
+    }
+    #cp2{
+        width: 55px;
+    }
+    #cp3{
+        width: 90px;
+    }
+    #cp4{
+        width: 120px;
+    }
+    #cp5{
+        width: 260px;
+    }
+    #cp6{
+        width: 100px;
+    }
+    .tx_cp{
+        font-size: 12px;
+        line-height: 2.5;
+        font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    }
+    .slash{
+        margin-left: 5px;
+        line-height: 1.9;
+    }
+    #tx6_cp{
+        margin-left: 3px;
+    }
+    #icon{
+        height: 20px;
+        width: 20px;
+        /* border: 1px solid black; */
+        background-image: url(./Screenshot\ 2023-03-27\ 100219.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 4px;
+    }
+    #cpy{
+        height: 50px;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-top: 30px;
+    }
+</style>
+<body>
+    <div id="main_footer">
+        <div id="box1">
+            <div id="sf" class="bx">
+                 <div id="hd" class="fo_box">Shop for</div>
+                <div id="bx1" class="fo_box">Creative Cloud</div>
+                <div id="bx2" class="fo_box">Photoshop</div>
+                <div id="bx3" class="fo_box">Adobe Express</div>
+                <div id="bx4" class="fo_box">Photography</div>
+                <div id="bx5" class="fo_box">Premiere pro</div>
+                <div id="bx6" class="fo_box">Adobe stock</div>
+                <div id="bx7" class="fo_box">Elements Family</div>
+                <br><br>
+                <div id="bx8" class="fo_box">Document Cloud</div>
+                <div id="bx9" class="fo_box">Acrobat</div>
+               <div id="bx10" class="fo_box">Acrobat Sign</div>
+                <br><br>
+                <div id="bx11" class="fo_box">Special offers</div>
+                <div id="bx12" class="fo_box">View plans and pricing</div>
+                <div id="bx13" class="fo_box">View all products</div>
+            </div>
+            <div id="fb" class="bx">
+                 <div id="hd" class="fo_box">For Business</div>
+                <div id="fb1" class="fo_box">Creative Cloud for teams</div>
+                <div id="fb2" class="fo_box">Creative Cloud for enterprise</div>
+                <div id="fb3" class="fo_box">Document Cloud for business</div>
+                <br><br>
+                <div id="hd" class="fo_box">For Education</div>
+                <div id="fb4" class="fo_box">Discount for student and teachers</div>
+                <div id="fb5" class="fo_box">Schools and universities</div>
+                <div id="fb6" class="fo_box">Digital Learning Solution</div>
+                <br><br>
+                <div id="hd" class=" fo_box">For mobile</div>
+                <div id="fb7" class="fo_box">Apps for iOS</div>
+                <div id="fb8" class="fo_box">Apps for Android</div>
+            </div>
+            <div id="ec" class="bx">
+                <div id="hd" class=" fo_box">Experience Cloud</div>
+                <div id="ec1" class="fo_box">What is Experience Cloud?</div>
+                <div id="ec2" class="fo_box">Analytics</div>
+                <div id="ec3" class="fo_box">Experience Manager</div>
+                <div id="ec4" class="fo_box">Commerce</div>
+                <div id="ec5" class="fo_box">Marketo Engage</div>
+                <div id="ec6" class="fo_box">Workfront</div>
+                <div id="ec7" class="fo_box">Terms of Use</div>
+            </div>
+            <div id="sup" class="bx">
+                <div id="hd" class="fo_box">Support</div>
+                <div id="sup1" class="fo_box">Download and Install</div>
+                <div id="sup2" class="fo_box">Help Center</div>
+                <div id="sup3" class="fo_box">Adobe Support Community</div>
+                <div id="sup4" class="fo_box">Enterprise Support</div>
+                <div id="sup5" class="fo_box">Genuine software</div>
+                <br><br>
+                <div id="hd" class="fo_box">Resources</div>
+                <div id="sup6" class="fo_box">Adobe Blog</div>
+                <div id="sup7" class="fo_box">Adobe Developer</div>
+                <br><br>
+                <div id="hd" class="fo_box">Adobe Account</div>
+                <div id="sup8" class="fo_box">Log in to your account</div>
+            </div>
+            <div id="ad" class="bx">
+                <div id="hd" class=" fo_box">Adobe</div>
+                <div id="ad1" class="fo_box">About</div>
+                <div id="ad2" class="fo_box">Careers</div>
+                <div id="ad3" class="fo_box">Newsroom</div>
+                <div id="ad4" class="fo_box">Corporate responsibility</div>
+                <div id="ad5" class="fo_box">Investor Relations</div>
+                <div id="ad6" class="fo_box">Supply chain</div>
+                <div id="ad7" class="fo_box">Trust Center</div>
+                <div id="ad8" class="fo_box">Events</div>
+                <div id="ad9" class="fo_box">Diversity and inclusion</div>
+                <div id="ad10" class="fo_box">Integrity</div>
+            </div>
+        </div>
+    
+
+        
+        <div id="main_fp">
+            <hr>
+            <div id="icon4">
+                <div id="fp">Featured products</div>
+                <div id="icons">
+                    <a href="#"> <div id="bic1" class="bic">
+                        <div id="ic1" class="ic"></div>
+                        <div id="txt1_cp" class="txt_cp">Adobe Acrobat Reader</div>
+                    </div> </a>
+                    <a href="#"> <div id="bic2" class="bic">
+                        <div id="ic2" class="ic"></div>
+                        <div id="txt2_cp" class="txt_cp">Adobe Express</div>
+                    </div></a>
+                    <a href="#"> <div id="bic3" class="bic">
+                        <div id="ic3" class="ic"></div>
+                        <div id="txt3_cp" class="txt_cp">Photoshop</div>
+                    </div></a>
+                    <a href="#"> <div id="bic4" class="bic">
+                        <div id="ic4" class="ic"></div>
+                        <div id="txt4_cp" class="txt_cp">illustrator</div>
+                    </div> </a>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+
+        <div id="cpy">
+            <div id="main_chr">
+                <div id="gl"></div>
+                <div id="txt">Change region
+                    <div id="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                </div>
+                <div id="icn">
+                    <div id="i1" class="i"><i class="fa fa-facebook-official" aria-hidden="true"></i></div>
+                    <div id="i2" class="i"><i class="fa fa-twitter-square" aria-hidden="true"></i></div>
+                    <div id="i3" class="i"><i class="fa fa-linkedin-square" aria-hidden="true"></i></div>
+                    <div id="i4" class="i"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                </div>
+            </div>
+
+        
+            <div id="main_cpy">
+                <div id="cp1" class="cp">
+                    <div id="tx1_cp" class="tx_cp">Copyright 2023 Adobe.All rights reserved.</div> 
+                    <div class="slash">/</div>
+                </div>
+                <div id="cp2" class="cp">
+                    <div id="tx2_cp" class="tx_cp">Privacy</div>
+                    <div class="slash">/</div>
+                </div>
+                <div id="cp3" class="cp">
+                    <div id="tx3_cp" class="tx_cp">Terms of Use</div> 
+                    <div class="slash">/</div>
+                </div>
+                <div id="cp4" class="cp">
+                    <div id="tx4_cp" class="tx_cp">Cookie preferences</div>
+                    <div class="slash">/</div>
+                </div>
+                <div id="cp5" class="cp">
+                    <div id="tx5_cp" class="tx_cp">Do not sell or share my personal information</div>
+                    <div class="slash">/</div>
+                </div> 
+                <div id="cp6" class="cp">
+                    <div id="icon"></div>
+                    <div id="tx6_cp" class="tx_cp">AdChoices</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
